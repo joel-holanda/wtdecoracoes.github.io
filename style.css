@@ -1,0 +1,132 @@
+@font-face {
+	font-family: fonte;
+	src: url(Lobster-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left:0;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    padding: 10px 60px ;
+    background-color: white;
+    text-decoration: none;    
+}
+header a{
+    list-style: none;
+    text-decoration: none;
+}
+header ul li{
+    margin: 0 20px;
+    color: black;
+    font-size: 20px;
+    font-family: Arial;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 50px; 
+    border: 3px rgb(0, 0, 0) solid;   
+}
+section#primeiro-estrofe{
+    height: 600px;
+    width: 100%;
+    background-color: tomato;
+    padding: 0px 30px;
+}
+img#logo-inicio {
+    margin-top: 70px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 10px 10px 10px black;
+}   
+#bem-vindo {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p#paragrafo1 {
+    font-size: 30px;
+    margin-top: 50px;
+    font-size: 43px;
+    margin-left: 10px;
+}
+#melhorar-pr1 {
+    margin: 0px;
+    height: 400px;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+section#segunda-estrofe {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(62, 199, 74);
+}
+p#exemplo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.apresentação{
+	position: absolute;
+	width: 10%;
+	height: 10%;
+}
+.apresentação img{
+	margin-top: 30px;
+	opacity: 0;
+	position: absolute;
+	margin-left: 25%;
+	transition: opacity 1000ms;
+}
+.apresentação img.select{opacity: 1;}
+
+div.apresentação img {
+    height: 500px;
+    width: 700px;
+    margin-left: 70px;
+}
+p#contrate {    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 38px;
+    margin-right: 40px;  
+    margin-top: 150px;
+}
+section#terceira-estrofe {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(199, 62, 169);
+}
+section#terceira-estrofe p{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+section#terceira-estrofe img {
+    width: 600px;
+    height: 300px;
+}
+section#quarta-estrofe {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(199, 178, 62);
+}
