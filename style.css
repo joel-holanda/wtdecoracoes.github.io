@@ -132,3 +132,25 @@ section#terceira-estrofe p{
     color: #000;
     margin-top: 150px;
 }
+@media (max-width: 600px) {
+    header ul {
+        padding: 0 10px;
+    }
+    header ul li {
+        font-size: 15px;
+    }
+    #bem-vindo {
+        font-size: 40px;
+    }
+    img#logo-inicio {
+        height: 330px;
+        width: 400px;
+    }
+    p#paragrafo1 {
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+    #melhorar-pr1{
+        position: relative;
+    }
+}
