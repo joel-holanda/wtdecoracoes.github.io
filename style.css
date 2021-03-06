@@ -1,16 +1,17 @@
-@font-face {
-	font-family: fonte;
-	src: url(Lobster-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 *{
     padding: 0;
     margin:0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: Raleway;
+}
+/*---MENU---*/
 header{
     width: 100%;
+    height: 100px;
     display: flex;
     height: 100px;
     flex-direction: row;
@@ -18,13 +19,14 @@ header{
     justify-content: center;
     top:0;
     left:0;
+    background-color: #FFFFFF;
 }
 header ul{
     display: flex;
     list-style: none;
     padding: 10px 60px ;
-    background-color: white;
-    text-decoration: none;    
+    text-decoration: none;
+    position: fixed;    
 }
 header a{
     list-style: none;
@@ -40,17 +42,20 @@ header ul li{
     border-radius: 50px; 
     border: 3px rgb(0, 0, 0) solid;   
 }
+
+/*--CONFIGURAÇÃO DA PRIMEIRA SECTION---*/
+
 section#primeiro-estrofe{
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background-color: tomato;
+    background-color: #fff;
     padding: 0px 30px;
 }
 img#logo-inicio {
     margin-top: 70px;
     width: 500px;
     height: 400px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 2px 2px 500px black;
 }   
 #bem-vindo {
     font-size: 60px;
@@ -61,8 +66,8 @@ img#logo-inicio {
 p#paragrafo1 {
     font-size: 30px;
     margin-top: 50px;
-    font-size: 43px;
-    margin-left: 10px;
+    font-size: 40px;
+    text-align: center;
 }
 #melhorar-pr1 {
     margin: 0px;
@@ -76,9 +81,8 @@ p#paragrafo1 {
 section#segunda-estrofe {
     height: 600px;
     width: 100%;
-    background-color: rgb(62, 199, 74);
 }
-p#exemplo {
+h1#exemplo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,11 +90,14 @@ p#exemplo {
 }
 .apresentação{
 	position: absolute;
-	width: 10%;
-	height: 10%;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .apresentação img{
-	margin-top: 30px;
+	margin-top: 0px;
 	opacity: 0;
 	position: absolute;
 	margin-left: 25%;
@@ -106,27 +113,22 @@ div.apresentação img {
 p#contrate {    
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: left;
     font-size: 38px;
     margin-right: 40px;  
+    line-height: 70px;
     margin-top: 150px;
+    padding: 0px 15px;
 }
 section#terceira-estrofe {
     height: 600px;
     width: 100%;
-    background-color: rgb(199, 62, 169);
+    background-color: #fff;
 }
 section#terceira-estrofe p{
     display: flex;
     justify-content: center;
     font-size: 40px;
-}
-section#terceira-estrofe img {
-    width: 600px;
-    height: 300px;
-}
-section#quarta-estrofe {
-    height: 600px;
-    width: 100%;
-    background-color: rgb(199, 178, 62);
+    color: #000;
+    margin-top: 150px;
 }
