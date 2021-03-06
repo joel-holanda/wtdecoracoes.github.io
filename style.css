@@ -8,10 +8,9 @@
 body{
     font-family: Raleway;
 }
-/*---MENU---*/
 header{
     width: 100%;
-    height: 100px;
+    height: 30%;
     display: flex;
     height: 100px;
     flex-direction: row;
@@ -20,13 +19,14 @@ header{
     top:0;
     left:0;
     background-color: #FFFFFF;
+    position: relative;
 }
 header ul{
     display: flex;
     list-style: none;
-    padding: 10px 60px ;
+    padding: 10px 60px;
     text-decoration: none;
-    position: fixed;    
+    position: fixed;   
 }
 header a{
     list-style: none;
@@ -42,9 +42,6 @@ header ul li{
     border-radius: 50px; 
     border: 3px rgb(0, 0, 0) solid;   
 }
-
-/*--CONFIGURAÇÃO DA PRIMEIRA SECTION---*/
-
 section#primeiro-estrofe{
     height: 700px;
     width: 100%;
@@ -64,7 +61,6 @@ img#logo-inicio {
     justify-content: center;
 }
 p#paragrafo1 {
-    font-size: 30px;
     margin-top: 50px;
     font-size: 40px;
     text-align: center;
@@ -119,11 +115,10 @@ p#contrate {
     line-height: 70px;
     margin-top: 150px;
     padding: 0px 15px;
-}
+}   
 section#terceira-estrofe {
     height: 600px;
     width: 100%;
-    background-color: #fff;
 }
 section#terceira-estrofe p{
     display: flex;
@@ -132,15 +127,21 @@ section#terceira-estrofe p{
     color: #000;
     margin-top: 150px;
 }
-@media (max-width: 600px) {
+
+@media (max-width: 1280px) {
+    header {
+        height: 100px;
+        width: 100%;
+    }
     header ul {
-        padding: 0 10px;
+
     }
     header ul li {
         font-size: 15px;
     }
     #bem-vindo {
-        font-size: 40px;
+        font-size: 30px;
+        text-align: center;
     }
     img#logo-inicio {
         height: 330px;
@@ -152,5 +153,28 @@ section#terceira-estrofe p{
     }
     #melhorar-pr1{
         position: relative;
+    }
+    section
+    h1#exemplo {
+        font-size: 30px;
+        text-align: center;
+    }
+    section#segunda-estrofe {
+        margin-top: 90px;
+    }
+    div.apresentação img {
+        height: 400px;
+        width: 400px;
+    }
+    p#contrate {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 500px;
+    }
+    section#terceira-estrofe p {
+        font-size: 30px;
+        margin-top: 300px;
+    }section#terceira-estrofe p#numero {
+        margin-top: 20px;
     }
 }
