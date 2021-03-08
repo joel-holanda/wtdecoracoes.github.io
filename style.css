@@ -38,38 +38,34 @@ header ul li{
     border-radius: 50px; 
     border: 3px rgb(0, 0, 0) solid;   
 }
-section#primeiro-estrofe{
-    height: 700px;
+section#primeiro-estrofe {
     width: 100%;
-    background-color: #fff;
-    padding: 0px 30px;
-}
-img#logo-inicio {
-    margin-top: 70px;
-    width: 500px;
-    height: 400px;
-    box-shadow: 2px 2px 50px rgb(0, 0, 0);
-}   
-#bem-vindo {
-    font-size: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(123, 126, 94);
-}
-p#paragrafo1 {
+    height: 500px;
+    padding: 0 30px;
     position: relative;
+}
+h2#bem-vindo {
+    margin-bottom: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
     font-size: 40px;
 }
-#melhorar-pr1 {
-    margin: 0px;
-    height: 400px;
-    width: 95%;
-    position: absolute;
+p#paragrafo1 {
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    align-content: center;
+    margin-top: 150px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
 }
+img#logo-inicio {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+}
+
 section#segunda-estrofe {
     height: 600px;
     width: 100%;
@@ -157,36 +153,24 @@ section#quarta-estrofe li{
         padding: 8px 7px;
         font-size: 15px;
     }
-    #bem-vindo {
-        font-size: 30px;
-        text-align: center;
-    }
-    #paragrafo1 {
-        height: 400px;
+    section#primeiro-estrofe{
         width: 100%;
-        margin-top: 160px;
-        text-align: center;
+        padding: 0 0;
     }
-    section#primeiro-estrofe {
-        padding: 0 0 ;
+    h2#bem-vindo {
+        font-size: 20px;
     }
     img#logo-inicio {
-        height: 350px;
         width: 100%;
+        height: 400px;
     }
     p#paragrafo1 {
-        font-size: 30px;
-        margin-bottom: 100px;
-    }
-    #melhorar-pr1{
-        position: relative;
-    }
-    section
-    h1#exemplo {
-        margin-top: 150px;
-        font-size: 30px;
+        justify-content: center;
         text-align: center;
-    }
+        font-size: 18px;
+        margin-top: 500px;
+        line-height: 50px;
+    } 
     section#segunda-estrofe {
         margin-top: 90px;
     }
@@ -207,7 +191,7 @@ section#quarta-estrofe li{
         margin-top: 300px;
     } 
     #contato{
-        height: 100px;
+        height: 00px;
         width: 100%;
         text-align: center;
     }
