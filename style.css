@@ -69,6 +69,7 @@ img#logo-inicio {
 section#segunda-estrofe {
     height: 600px;
     width: 100%;
+    margin-top: 100px;
 }
 h1#exemplo {
     display: flex;
@@ -102,7 +103,9 @@ p#contrate {
     display: flex;
     align-items: center;
     justify-content: left;
+    width: 540px;
     font-size: 38px;
+    text-align: center;
     margin-right: 40px;  
     line-height: 70px;
     margin-top: 150px;
@@ -172,7 +175,12 @@ section#quarta-estrofe li{
         line-height: 50px;
     } 
     section#segunda-estrofe {
-        margin-top: 90px;
+        margin-top: 140px;
+    }
+    section#segunda-estrofe h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 330px;
     }
     div.apresentação img {
         height: 350px;
@@ -196,6 +204,6 @@ section#quarta-estrofe li{
         text-align: center;
     }
     }section#terceira-estrofe p#numero {
-        margin-top: 10px;
+        margin-top: 150px;
     }
 }
