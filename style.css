@@ -175,6 +175,7 @@ section#quarta-estrofe {
     div.apresentação img {
         height: 350px;
         width: 100%;
+	padding: 0px 0px;
     }
     p#contrate {
         height: 400px;
