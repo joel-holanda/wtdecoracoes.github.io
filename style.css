@@ -196,15 +196,11 @@ section#quarta-estrofe {
     }section#terceira-estrofe p#numero {
         margin-top: 150px;
     }
-    section#quarta-estrofe {
-        background-color: rgb(113, 158, 241);
-    }
     section#quarta-estrofe p{
         font-size: 20px;
         margin-top: 20px;
     }
     section#quarta-estrofe a {
         text-decoration: none;
-        color: rgb(255, 223, 43);
     }
 }
