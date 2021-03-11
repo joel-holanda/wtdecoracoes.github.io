@@ -27,6 +27,7 @@ header ul{
     text-decoration: none;  
 }
 header a{
+    color: black;
     list-style: none;
     text-decoration: none;
 }
@@ -112,12 +113,17 @@ p#contrate {
     margin-right: 40px;  
     line-height: 70px;
     margin-top: 150px;
+    color: black;
     padding: 0px 15px;
     font-size: 40px;
 }  
 section#terceira-estrofe {
     height: 300px;
     width: 100%;
+}
+section#terceira-estrofe a {
+    text-decoration: none;
+    color: black;
 }
 section#terceira-estrofe p{
     display: flex;
@@ -130,11 +136,17 @@ section#terceira-estrofe p{
 section#quarta-estrofe {
     height: 500px;
     width: 100%;
-    font-size: 30px;
     text-align: center;    
-    border-top: 2px solid black ;
+    border-top: 2px solid black;
+    margin-top: 30px;
 }
+section#quarta-estrofe p#equipe{
+    font-size: 30px;
+}
+section#quarta-estrofe a {
+    font-size: 30px;
 
+}
 @media (max-width: 1100px) {
     header {
         height: 100px;
@@ -175,7 +187,6 @@ section#quarta-estrofe {
     div.apresentação img {
         height: 350px;
         width: 100%;
-	padding: 0px 0px;
     }
     p#contrate {
         height: 400px;
@@ -197,11 +208,15 @@ section#quarta-estrofe {
     }section#terceira-estrofe p#numero {
         margin-top: 150px;
     }
+    section#quarta-estrofe {
+        
+    }
     section#quarta-estrofe p{
         font-size: 20px;
         margin-top: 20px;
     }
     section#quarta-estrofe a {
         text-decoration: none;
+        color: black;
     }
 }
